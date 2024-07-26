@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <style>
+      * {
+        text-align: center;
+      }
+
+      #speed {
+        display: none;
+      }
+
+      li {
+        list-style: none;
+        font-size: 30px;
+      }
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        background: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      /* ul {
+        border: 1px solid black;
+        width: 300px;
+        height: 600px;
+        display: inline-block;
+      } */
+    </style>
+    <!-- <script
+      src="https://kit.fontawesome.com/7ab92cd7d8.js"
+      crossorigin="anonymous"
+    ></script> -->
+  </head>
+  <body>
+    <!-- <i class="fa-solid fa-person" style="font-size: 100px"></i> -->
+    <h1 id="dayday">현재시간</h1>
+    <h1 id="text">문자열문자열</h1>
+    <h1 id="todo">TODAY</h1>
+
+    <div>
+      <input id="speed" />
+      <input type="text" id="newTodo" placeholder="오늘할일" />
+      <button id="add-todo">추가</button>
+      <ul id="todoList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
